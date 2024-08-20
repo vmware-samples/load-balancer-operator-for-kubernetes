@@ -1,20 +1,20 @@
 module gitlab.eng.vmware.com/core-build/tkg-connectivity/hack/tools
 
 go 1.22
-toolchain go1.22.4
+toolchain go1.22.5
 
 require (
 	carvel.dev/ytt v0.49.1
 	github.com/onsi/ginkgo v1.16.5
 	k8s.io/code-generator v0.30.2
 	sigs.k8s.io/controller-tools v0.14.0
-	sigs.k8s.io/kind v0.23.0
+	sigs.k8s.io/kind v0.24.0
 	sigs.k8s.io/kustomize/kustomize/v5 v5.4.2
 )
 
 require (
-	github.com/BurntSushi/toml v1.2.1 // indirect
-	github.com/alessio/shellescape v1.4.1 // indirect
+	github.com/BurntSushi/toml v1.4.0 // indirect
+	github.com/alessio/shellescape v1.4.2 // indirect
 	github.com/blang/semver/v4 v4.0.0 // indirect
 	github.com/cppforlife/cobrautil v0.0.0-20200514214827-bb86e6965d72 // indirect
 	github.com/cppforlife/go-cli-ui v0.0.0-20200505234325-512793797f05 // indirect
@@ -47,7 +47,7 @@ require (
 	github.com/modern-go/reflect2 v1.0.2 // indirect
 	github.com/monochromegane/go-gitignore v0.0.0-20200626010858-205db1a8cc00 // indirect
 	github.com/nxadm/tail v1.4.8 // indirect
-	github.com/pelletier/go-toml v1.9.4 // indirect
+	github.com/pelletier/go-toml v1.9.5 // indirect
 	github.com/pkg/errors v0.9.1 // indirect
 	github.com/spf13/cobra v1.8.0 // indirect
 	github.com/spf13/pflag v1.0.5 // indirect
