@@ -5,7 +5,7 @@ go 1.22
 require (
 	carvel.dev/ytt v0.49.1
 	github.com/onsi/ginkgo v1.16.5
-	k8s.io/code-generator v0.29.6
+	k8s.io/code-generator v0.29.9
 	sigs.k8s.io/controller-tools v0.14.0
 	sigs.k8s.io/kind v0.22.0
 	sigs.k8s.io/kustomize/kustomize/v5 v5.4.2
