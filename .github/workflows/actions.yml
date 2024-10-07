@@ -11,7 +11,7 @@ jobs:
     name: lint-check
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4.1.7
+      - uses: actions/checkout@v4.2.1
       - uses: actions/setup-go@v5
         with:
           stable: 'true'
@@ -41,7 +41,7 @@ jobs:
     name: unit-test
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4.1.7
+      - uses: actions/checkout@v4.2.1
       - uses: actions/setup-go@v5
         with:
           stable: 'true'
@@ -65,7 +65,7 @@ jobs:
     runs-on: ubuntu-latest
     needs: [ lint ]
     steps:
-      - uses: actions/checkout@v4.1.7
+      - uses: actions/checkout@v4.2.1
       - uses: actions/setup-go@v5
         with:
           stable: 'true'
@@ -79,7 +79,7 @@ jobs:
     name: build-lb-operator-image
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4.1.7
+      - uses: actions/checkout@v4.2.1
       - uses: actions/setup-go@v5
         with:
           stable: 'true'
